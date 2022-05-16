@@ -1,0 +1,85 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 90%;
+  height: 100vh;
+  margin: 3% auto;
+}
+.page-title {
+  flex-basis: 40%;
+  font-size: 0.7rem;
+  /* display: block; */
+}
+h4 {
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: left; */
+  margin-bottom: 1rem;
+}
+.about-us {
+  flex-basis: 50%;
+  line-height: 20px;
+}
+
+.crew {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.lower {
+  display: inline-block;
+  padding-top: 10rem;
+}
+.ltext {
+  margin-top: 10rem;
+}
+.crew-image {
+  flex-basis: 30%;
+  position: relative;
+  cursor: pointer;
+  padding-right: 0.5rem;
+}
+.crew-image img {
+  width: 100%;
+}
+.crew-image .caption {
+  font-size: 0.8rem;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 3.5rem;
+  right: -2.5rem;
+}
+
+h5 {
+  text-align: center;
+  font-size: 1rem;
+}
+footer {
+  text-align: center;
+  color: #333333;
+  padding: 5rem 0 1rem 0;
+}
+@media only screen and (max-width: 580px) {
+  .lower {
+    display: inline-block;
+    padding-top: 1rem;
+  }
+  .ltext {
+    margin-top: 0rem;
+  }
+}
