@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body{
-  width: 80%;
+  width: 85%;
   margin:3% auto;
 }
 .title{
@@ -43,11 +43,13 @@ body{
 }
 .crew-image img{
   width: 100%;
+  padding-right: 0.5rem;
 }
 .crew-image{
   position: relative;
-  flex-basis: 40%;
-  margin-right: 2rem;
+  flex-basis: 30%;
+  border: 2px solid red;
+  
 }
 .crew-image h5{
   padding: 0.2rem;
@@ -57,7 +59,7 @@ transform: rotate(90deg);
 width: 100%;
 position: absolute;
 /* 4rem / -4rem */
-right: -55%;
+right: -48%;
 top:30%;
 font-weight: lighter;
 }
@@ -86,6 +88,7 @@ footer {
   }
   .crew-image{
     flex-basis: 30%;
+    padding-right: .5rem;
   }
 
   .two,.four,.six{
@@ -97,7 +100,7 @@ footer {
   }
   .caption{
     /* 6rem / -6.2rem */
-    right: -54%;
+    right: -48%;
     top:52%;
     font-size: 1rem;
     
