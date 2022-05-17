@@ -52,6 +52,7 @@ body{
 }
 .crew-image h5{
   padding: 0.2rem;
+  font-size: 0.8rem;
 }
 .caption{
 transform: rotate(90deg);
@@ -88,7 +89,7 @@ footer {
   }
   .crew-image{
     flex-basis: 25%;
-    margin-right: 0.7rem;
+    margin-right: 1.5rem;
   }
 
   .two,.four,.six{
@@ -102,8 +103,11 @@ footer {
     /* 6rem / -6.2rem */
     right: -51%;
     top:40%;
-    font-size: 1rem;
+    font-size: 0.9rem;
     
+    }
+    .crew-image h5{
+      font-size: 1rem;
     }
 }
 
