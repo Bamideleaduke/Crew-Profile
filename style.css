@@ -43,11 +43,12 @@ body{
 }
 .crew-image img{
   width: 100%;
-  padding-right: 0.5rem;
+  padding-right: 0.7rem;
 }
 .crew-image{
   position: relative;
   flex-basis: 30%;
+  margin-right: 0.5rem;
   border: 2px solid red;
   
 }
