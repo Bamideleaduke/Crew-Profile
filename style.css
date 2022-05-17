@@ -48,7 +48,7 @@ body{
 .crew-image{
   position: relative;
   flex-basis: 30%;
-  margin-right: 0.7rem;
+  margin-right: 1rem;
 }
 .crew-image h5{
   padding: 0.2rem;
@@ -87,6 +87,7 @@ footer {
   }
   .crew-image{
     flex-basis: 25%;
+    margin-right: 0.7rem;
   }
 
   .two,.four,.six{
@@ -94,12 +95,12 @@ footer {
   }
 
   .five,.two{
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
   .caption{
     /* 6rem / -6.2rem */
     right: -51%;
-    top:52%;
+    top:40%;
     font-size: 1rem;
     
     }
