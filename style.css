@@ -49,8 +49,7 @@ body{
 .crew-image{
   position: relative;
   flex-basis: 30%;
-  
-  
+  margin-right: 0.7rem;
 }
 .crew-image h5{
   padding: 0.2rem;
